@@ -1,7 +1,13 @@
 *{box-sizing: border-box;
     margin: 0em;
-    padding: 0em;
+    padding: 0.5em;
 }
 
-body{background-color: #a2aaa5;}
+body{background-color: #a5aaa7; margin: 1em; }
 
+<style>
+  img {
+        border-radius: 50%;
+        border: rgb(3, 3, 3);
+      }
+</style>
