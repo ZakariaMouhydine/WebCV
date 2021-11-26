@@ -3,11 +3,41 @@
     padding: 0.5em;
 }
 
-body{background-color: #a5aaa7; margin: 1em; }
+body{
+     background-color: #d4cfbf; 
+     margin: 1em;
+    }
 
-<style>
-  img {
+img {
         border-radius: 50%;
         border: rgb(3, 3, 3);
       }
-</style>
+
+h1 {
+    text-align: center;
+   }
+h4 {
+    text-align: center;
+   }
+
+   .button:hover {
+    box-shadow: 0 0 10px 0 #b3b09d inset, 0 0 10px 4px #ebe8b6;
+    background-position: 0;
+}
+.button {
+    border-color: #7c754f;
+    background-image: linear-gradient(45deg, #d6ce9d 73%, transparent 50%);
+    background-position: 100%;
+    background-size: 200%;
+    transition: 300ms ease-in-out;
+    padding: 0.5em 2em;
+    border: 0.2em rgb(0, 0, 0) solid;
+    background-color: rgb(233, 228, 188);
+    border-radius: 1.7em;
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.contact {
+    text-align: center;
+}
